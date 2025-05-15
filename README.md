@@ -6,11 +6,11 @@ The Brews Brothers ETL Pipeline is developed to support SuperCafe's growing dema
 ---
 
 ## Team Members
-- Winston Graham
-- Guled Macallin
-- Mackenzie Mealy  
-- Zubed Chowdhury  
-- Mohammed Abanur
+- Winston
+- Guled
+- Mackenzie  
+- Zubed
+- Mohammed
 
 ---
 
