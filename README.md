@@ -12,22 +12,18 @@ The pipeline extracts, transforms, and loads (ETL) transaction data from CSV fil
 ---
 
 ## Repository Structure
-repo_name/
-│
-├── AWS/ # Original deployment on AWS
-│ ├── sprint_1/
-│ ├── sprint_2/
-│ └── sprint_3/
-│
-└── Azure/ # Adapted deployment for Microsoft Azure
-├── src/
-├── data/
-├── docker/
-└── README.md
 
-yaml
-Copy
-Edit
+- **AWS/** – Original deployment on AWS
+  - **sprint_1/** – Sprint 1 files, data, scripts, documentation
+  - **sprint_2/** – Sprint 2 files, data, scripts, documentation
+  - **sprint_3/** – Sprint 3 files, data, scripts, documentation
+
+- **Azure/** – Adapted deployment for Microsoft Azure
+  - **src/** – ETL source code adapted for Azure
+  - **data/** – Sample or processed data
+  - **docker/** – Docker/Docker Compose configs for Azure setup
+  - **README.md** – README specific to Azure deployment
+
 
 - **AWS folder**: Contains sprint-wise breakdown of the ETL development, infrastructure setup, and dashboard integration.  
 - **Azure folder**: Contains the ETL pipeline adapted for Azure services. Since most ETL code is reused, this folder focuses on adaptations and connection updates rather than incremental development.
